@@ -27,11 +27,13 @@ class Template extends React.Component {
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
-              color: 'inherit',
+              //color: 'inherit',
+              color: 'lightgoldenrodyellow'
+
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+          Worth Coding
           </Link>
         </h1>
       )
@@ -42,6 +44,8 @@ class Template extends React.Component {
             fontFamily: 'Montserrat, sans-serif',
             marginTop: 0,
             marginBottom: rhythm(-1),
+            color: 'lightgoldenrodyellow'
+            
           }}
         >
           <Link
@@ -52,7 +56,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            Worth Coding
           </Link>
         </h3>
       )
@@ -62,6 +66,9 @@ class Template extends React.Component {
         style={{
           maxWidth: rhythm(24),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          background: 'midnightblue',
+          color: 'lightgoldenrodyellow'
+          //backgroundcolor: 'black',
         }}
       >
         {header}

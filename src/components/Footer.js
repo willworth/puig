@@ -5,9 +5,10 @@ import 'typeface-montserrat'
 import 'typeface-merriweather'
 
 import profilePic from './profile-pic.jpg'
+import github from './github.svg'
 import { rhythm } from '../utils/typography'
 
-class Bio extends React.Component {
+class Footer extends React.Component {
   render() {
     return (
       <div
@@ -17,8 +18,8 @@ class Bio extends React.Component {
         }}
       >
         <img
-          src={profilePic}
-          alt={`Will Worth`}
+          src={github}
+          alt={`github`}
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
@@ -27,11 +28,11 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Written by <strong>Will Worth</strong>, a coder currently based in Alicante, Spain..{' '}
+          Here´s my footer text{' '}
         </p>
       </div>
     )
   }
 }
 
-export default Bio
+export default Footer

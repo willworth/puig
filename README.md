@@ -1,9 +1,4 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# Puig
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+Puig is the name of a mountain near me, here in Valencia.
 
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
-
-## Running in development
-`gatsby develop`

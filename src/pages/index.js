@@ -4,6 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
 import Bio from '../components/Bio'
+import Footer from '../components/Footer'
 import { rhythm } from '../utils/typography'
 
 class BlogIndex extends React.Component {
@@ -32,7 +33,9 @@ class BlogIndex extends React.Component {
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
             </div>
           )
+          
         })}
+        <Footer />
       </div>
     )
   }
